@@ -7,7 +7,7 @@ n, m = map(int, input().split())
 for i in range(1, n+1):
     basket.append(i)
 
-
+# 좌측에서부터 1번째 바구니는 0번 인덱스의 바구니를 의미함을 유의해야한다.
 for _ in range(m):
     i, j = map(int, input().split())
     if(i>j): # i=4 j=2
