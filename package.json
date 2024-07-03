@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "auto-judge": "^0.0.10",
+    "g": "^2.0.1"
+  }
+}
